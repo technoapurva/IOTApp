@@ -1,6 +1,8 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\appatha\documents\visual studio 2015\projects\iotapp\iotapp\iotapp.windowsphone\obj\debug\intermediatexaml\iotapp.windowsphone.exe" HashGuid="7fe7f33b-9a9c-f973-2f1c-889a8a14b614" />
-    <ReferenceAssembly PathName="c:\users\appatha\documents\visual studio 2015\projects\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

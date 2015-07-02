@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
+<Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="Subtitle" />
@@ -141,6 +141,14 @@
     </RootType>
     <RootType FullName="IOTApp.SectionPage" />
     <RootType FullName="IOTApp.ItemPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="IOTApp.Views.CricketCanvas" />
     <RootType FullName="IOTApp.Views.CricketPage" />
   </Roots.RootTypes>
 </Roots>

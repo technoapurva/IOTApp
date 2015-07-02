@@ -1,88 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>APURVA-DTP</Machine>
-    <WindowsUser>appatha</WindowsUser>
+    <Machine>MININT-640G8AD</Machine>
+    <WindowsUser>t-akyeru</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>18c739fa-35ea-41a5-bc70-5f1a7df1698a</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.exe">
       <PackagePath>IOTApp.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Net.Http.2.2.29\lib\wpa81\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Net.Http.2.2.29\lib\wpa81\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\HubBackground.theme-dark.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\HubBackground.theme-dark.png">
       <PackagePath>Assets\HubBackground.theme-dark.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\HubBackground.theme-light.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\HubBackground.theme-light.png">
       <PackagePath>Assets\HubBackground.theme-light.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Shared\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Shared\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Shared\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\DataModel\SampleData.json">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Shared\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\HubPage.xbf">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\SectionPage.xbf">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\ItemPage.xbf">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\CricketPage.xbf">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\CricketCanvas.xbf">
+      <PackagePath>Views\CricketCanvas.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\CricketPage.xbf">
       <PackagePath>Views\CricketPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.xr.xml">
       <PackagePath>IOTApp.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

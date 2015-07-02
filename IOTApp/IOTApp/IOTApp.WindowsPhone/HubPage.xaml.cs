@@ -104,11 +104,11 @@ namespace IOTApp
         private void GroupSection_ItemClick(object sender, ItemClickEventArgs e)
         {
             var groupId = ((SampleDataGroup)e.ClickedItem).UniqueId;
-            Frame.Navigate(typeof(CricketPage));
-            //if (!Frame.Navigate(typeof(SectionPage), groupId))
-            //{
-            //    throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
-            //}
+            //Frame.Navigate(typeof(CricketPage));
+            if (!Frame.Navigate(typeof(CricketCanvas), groupId))
+            {
+                throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
+            }
         }
 
         /// <summary>

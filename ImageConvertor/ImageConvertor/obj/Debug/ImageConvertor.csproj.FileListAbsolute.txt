@@ -4,3 +4,6 @@ c:\users\appatha\documents\visual studio 2015\Projects\ImageConvertor\ImageConve
 c:\users\appatha\documents\visual studio 2015\Projects\ImageConvertor\ImageConvertor\obj\Debug\ImageConvertor.csprojResolveAssemblyReference.cache
 c:\users\appatha\documents\visual studio 2015\Projects\ImageConvertor\ImageConvertor\obj\Debug\ImageConvertor.exe
 c:\users\appatha\documents\visual studio 2015\Projects\ImageConvertor\ImageConvertor\obj\Debug\ImageConvertor.pdb
+C:\Users\t-akyeru\Source\Repos\IOTApp\ImageConvertor\ImageConvertor\bin\Debug\ImageConvertor.exe.config
+C:\Users\t-akyeru\Source\Repos\IOTApp\ImageConvertor\ImageConvertor\obj\Debug\ImageConvertor.exe
+C:\Users\t-akyeru\Source\Repos\IOTApp\ImageConvertor\ImageConvertor\obj\Debug\ImageConvertor.pdb
