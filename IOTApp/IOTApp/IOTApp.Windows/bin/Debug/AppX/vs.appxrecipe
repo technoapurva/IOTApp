@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>APURVA-DTP</Machine>
+    <WindowsUser>appatha</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d5462508-4adc-4bb7-80ef-1f2f2986a270</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E1F9B7B3A3074AA55B6C03F2671F43E5EE1A15450BEA0A38E2B60FB5B76B8BA9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d5462508-4adc-4bb7-80ef-1f2f2986a270_1.0.0.0_neutral__cg9x3e9k9kb3w</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d5462508-4adc-4bb7-80ef-1f2f2986a270_cg9x3e9k9kb3w!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d5462508-4adc-4bb7-80ef-1f2f2986a270</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=appatha</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-30T06:17:29.005</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.exe">
+      <PackagePath>IOTApp.Windows.exe</PackagePath>
+      <Modified>2015-06-30T06:17:28.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2014-11-07T12:45:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-06-30T06:16:39.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-06-30T06:17:28.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-06-30T06:17:28.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2015-06-30T06:17:28.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2015-06-30T06:17:28.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.xr.xml">
+      <PackagePath>IOTApp.Windows.xr.xml</PackagePath>
+      <Modified>2015-06-30T06:17:28.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-30T06:17:28.859</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
