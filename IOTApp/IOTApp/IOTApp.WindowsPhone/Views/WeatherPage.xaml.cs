@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -23,9 +22,9 @@ namespace IOTApp.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class CricketPage : Page
+    public sealed partial class WeatherPage : Page
     {
-        public CricketPage()
+        public WeatherPage()
         {
             this.InitializeComponent();
         }
@@ -38,19 +37,11 @@ namespace IOTApp.Views
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
-
-        private async void Page_Loaded(object sender, RoutedEventArgs e)
+        
+        private  async void WeatherPage_Loaded(object sender, RoutedEventArgs e)
         {
-            List<CricketDataModel> abc = await CricketRepository.GetMatchData();
-            listCricketView.DataContext = abc;
+            List<WeatherDataModel> abc = await WeatherRepository.GetWeatherData();
+            listWeatherViewCanvas.DataContext = abc;
         }
-
-        private void Score_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            var senderType = sender.GetType();
-            var itemType = e.GetType();
-            var groupId = ((CricketDataModel)e.ClickedItem).GameTitle;
-        }
-
     }
 }

@@ -88,6 +88,9 @@
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\CricketPage.xbf">
       <PackagePath>Views\CricketPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\WeatherPage.xbf">
+      <PackagePath>Views\WeatherPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.xr.xml">
       <PackagePath>IOTApp.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>

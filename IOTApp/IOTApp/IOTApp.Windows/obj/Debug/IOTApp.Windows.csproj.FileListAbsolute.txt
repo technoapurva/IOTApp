@@ -16,6 +16,23 @@ C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Wind
 C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\SectionPage.xbf
 C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\ItemPage.xbf
 C:\Users\appatha\documents\visual studio 2015\Projects\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\App.xbf
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\HubPage.xbf
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\SectionPage.xbf
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\ItemPage.xbf
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.xr.xml
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.exe
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.pdb
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\resources.pri
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\AppxManifest.xml
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.build.appxrecipe
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\Newtonsoft.Json.dll
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\IOTApp.Windows.csprojResolveAssemblyReference.cache
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\App.g.i.cs
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\App.g.cs
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\HubPage.g.i.cs
@@ -34,23 +51,6 @@ C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\Hub
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\SectionPage.xbf
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\ItemPage.xbf
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\XamlSaveStateFile.xml
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\IOTApp.Windows.csprojResolveAssemblyReference.cache
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\App.xbf
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\HubPage.xbf
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\SectionPage.xbf
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\ItemPage.xbf
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.xr.xml
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.exe
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.pdb
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\resources.pri
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\AppxManifest.xml
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.build.appxrecipe
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\Newtonsoft.Json.dll
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Extensions.dll
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Primitives.dll
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\Newtonsoft.Json.xml
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Extensions.xml
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\IOTApp.Windows.exe
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\IOTApp.Windows.pdb
 C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\IOTApp.Windows.csproj.GenerateResource.Cache

@@ -19,7 +19,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\LvItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\MatchModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\WeatherDataModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utility\CricketRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\WeatherRepository.cs" />
     <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />

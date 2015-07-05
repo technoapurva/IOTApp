@@ -57,5 +57,13 @@ namespace IOTApp.Views
             //myListView.ItemsSource = items;
             listCricketViewCanvas.DataContext = abc;
         }
+
+        private void Score_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var senderType = sender.GetType();
+            var boo = e.ClickedItem.GetType();
+            var itemType = e.GetType();
+            var groupId = ((CricketDataModel)e.ClickedItem).GameTitle;
+        }
     }
 }

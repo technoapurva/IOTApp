@@ -13,6 +13,11 @@
     <RootPropertyPathName Name="si" />
     <RootPropertyPathName Name="de" />
     <RootPropertyPathName Name="GameTitle" />
+    <RootPropertyPathName Name="weather" />
+    <RootPropertyPathName Name="description" />
+    <RootPropertyPathName Name="main" />
+    <RootPropertyPathName Name="temp" />
+    <RootPropertyPathName Name="name" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -150,5 +155,6 @@
     </RootType>
     <RootType FullName="IOTApp.Views.CricketCanvas" />
     <RootType FullName="IOTApp.Views.CricketPage" />
+    <RootType FullName="IOTApp.Views.WeatherPage" />
   </Roots.RootTypes>
 </Roots>

@@ -105,7 +105,11 @@ namespace IOTApp
         {
             var groupId = ((SampleDataGroup)e.ClickedItem).UniqueId;
             //Frame.Navigate(typeof(CricketPage));
-            if (!Frame.Navigate(typeof(CricketCanvas), groupId))
+            if (groupId == "Group-1")
+                Frame.Navigate(typeof(CricketPage), groupId);
+            else if (groupId == "Group-2")
+                Frame.Navigate(typeof(WeatherPage), groupId);
+            else
             {
                 throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
             }
