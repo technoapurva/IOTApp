@@ -11,12 +11,16 @@
     <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="100*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="#FF008AFF">
             <TextBlock Text="New Scores" FontSize="32" Margin="10,0,0,0" VerticalAlignment="Center" Style="{ThemeResource HeaderTextBlockStyle}"/>
         </Grid>
-        <Grid Grid.Row="1" Margin="0,5,0,0">
+        <Grid Grid.Row="1">
+            <Button Content="Button" Click="Button_Click"></Button>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,5,0,0">
             <ListView x:Name="listCricketViewCanvas"
                         ItemsSource="{Binding}"
                         IsItemClickEnabled="True"

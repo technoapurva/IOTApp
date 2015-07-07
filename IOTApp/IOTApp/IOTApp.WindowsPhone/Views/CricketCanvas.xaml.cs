@@ -55,7 +55,37 @@ namespace IOTApp.Views
             //    items.Add(new LvItem() { Graph = canvas });
             //    }
             //myListView.ItemsSource = items;
+
             listCricketViewCanvas.DataContext = abc;
+        }
+        public T FindDescendant<T>(DependencyObject obj) where T : DependencyObject
+        {
+            // Check if this object is the specified type
+            if (obj is T)
+                return obj as T;
+
+            // Check for children
+            int childrenCount = VisualTreeHelper.GetChildrenCount(obj);
+            if (childrenCount < 1)
+                return null;
+
+            // First check all the children
+            for (int i = 0; i < childrenCount; i++)
+            {
+                DependencyObject child = VisualTreeHelper.GetChild(obj, i);
+                if (child is T)
+                    return child as T;
+            }
+
+            // Then check the childrens children
+            for (int i = 0; i < childrenCount; i++)
+            {
+                DependencyObject child = FindDescendant<T>(VisualTreeHelper.GetChild(obj, i));
+                if (child != null && child is T)
+                    return child as T;
+            }
+
+            return null;
         }
 
         private void Score_ItemClick(object sender, ItemClickEventArgs e)
@@ -64,6 +94,14 @@ namespace IOTApp.Views
             var boo = e.ClickedItem.GetType();
             var itemType = e.GetType();
             var groupId = ((CricketDataModel)e.ClickedItem).GameTitle;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //  ListViewItem item = this.listCricketViewCanvas.ItemContainerGenerator.ContainerFromIndex(0) as ListViewItem;
+            var currentSelectedListBoxItem = this.listCricketViewCanvas.ContainerFromIndex(0) as ListViewItem;
+            Canvas canv = FindDescendant<Canvas>(currentSelectedListBoxItem);
+
         }
     }
 }
