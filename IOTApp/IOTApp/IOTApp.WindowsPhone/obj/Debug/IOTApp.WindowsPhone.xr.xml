@@ -10,14 +10,14 @@
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Group" />
     <RootPropertyPathName Name="Item" />
-    <RootPropertyPathName Name="si" />
-    <RootPropertyPathName Name="de" />
-    <RootPropertyPathName Name="GameTitle" />
     <RootPropertyPathName Name="weather" />
     <RootPropertyPathName Name="description" />
     <RootPropertyPathName Name="main" />
     <RootPropertyPathName Name="temp" />
     <RootPropertyPathName Name="name" />
+    <RootPropertyPathName Name="si" />
+    <RootPropertyPathName Name="de" />
+    <RootPropertyPathName Name="GameTitle" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -152,6 +152,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="IOTApp.Views.CalendarPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="IOTApp.Views.CricketCanvas" />
     <RootType FullName="IOTApp.Views.CricketPage" />

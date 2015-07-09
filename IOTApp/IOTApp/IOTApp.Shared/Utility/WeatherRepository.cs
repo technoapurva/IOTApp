@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Devices.Geolocation;
 
 namespace IOTApp.Utility
 {
@@ -13,7 +14,17 @@ namespace IOTApp.Utility
     {
         public static async Task<List<WeatherDataModel>> GetWeatherData()
         {
-            string url = "http://api.openweathermap.org/data/2.5/weather?q=Hyderabad";
+
+            Geolocator geolocator = new Geolocator();
+            Geoposition geoposition = null;
+            geoposition = await geolocator.GetGeopositionAsync();
+            var points = geoposition.Coordinate.Point;
+
+            var lati = geoposition.Coordinate.Point.Position.Latitude;
+            var la = lati.GetType();
+            var longi = geoposition.Coordinate.Point.Position.Longitude;
+            var lo = longi.GetType();
+            string url = "http://api.openweathermap.org/data/2.5/weather?lat="+lati+"&lon="+longi;
             //List<WeatherDataModel> cricketDataModel = new List<WeatherDataModel>();
             var httpClient = new HttpClient(new HttpClientHandler());
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, url);

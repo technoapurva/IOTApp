@@ -5,6 +5,12 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Foundation;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.Media;
+
+
 
 
 namespace IOTApp.Utility
@@ -68,6 +74,27 @@ namespace IOTApp.Utility
                 }
             }
             return cricketDataModel;
+        }
+
+        private void CreateSaveBitmap(Canvas canvas, string filename)
+        {
+            RenderTargetBitmap renderBitmap = new RenderTargetBitmap(
+             (int)canvas.Width, (int)canvas.Height,
+             96d, 96d, PixelFormats.Pbgra32);
+            // needed otherwise the image output is black
+            canvas.Measure(new Size((int)canvas.Width, (int)canvas.Height));
+            canvas.Arrange(new Rect(new Size((int)canvas.Width, (int)canvas.Height)));
+
+            renderBitmap.Render(canvas);
+
+            JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+            PngBitmapEncoder encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(renderBitmap));
+
+            using (FileStream file = File.Create(filename))
+            {
+                encoder.Save(file);
+            }
         }
     }
 }

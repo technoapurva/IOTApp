@@ -15,6 +15,7 @@ HubPage.xbf
 IOTApp.WindowsPhone.xr.xml
 ItemPage.xbf
 SectionPage.xbf
+Views\CalendarPage.xbf
 Views\CricketCanvas.xbf
 Views\CricketPage.xbf
 Views\WeatherPage.xbf

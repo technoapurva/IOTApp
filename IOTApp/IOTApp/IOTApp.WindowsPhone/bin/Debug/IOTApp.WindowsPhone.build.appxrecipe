@@ -19,6 +19,12 @@
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.exe">
       <PackagePath>IOTApp.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\IOTApp.WindowsPhone.exe.config">
+      <PackagePath>IOTApp.WindowsPhone.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll">
+      <PackagePath>Microsoft.Spatial.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
@@ -27,6 +33,33 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Net.Http.2.2.29\lib\wpa81\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.Spatial.resources.dll">
+      <PackagePath>de\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.Spatial.resources.dll">
+      <PackagePath>es\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.Spatial.resources.dll">
+      <PackagePath>fr\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.Spatial.resources.dll">
+      <PackagePath>it\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.Spatial.resources.dll">
+      <PackagePath>ja\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.Spatial.resources.dll">
+      <PackagePath>ko\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.Spatial.resources.dll">
+      <PackagePath>ru\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.Spatial.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.Spatial.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Spatial.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
@@ -81,6 +114,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\CalendarPage.xbf">
+      <PackagePath>Views\CalendarPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\bin\Debug\Views\CricketCanvas.xbf">
       <PackagePath>Views\CricketCanvas.xbf</PackagePath>

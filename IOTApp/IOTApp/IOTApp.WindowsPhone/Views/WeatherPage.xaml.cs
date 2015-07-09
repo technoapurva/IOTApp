@@ -14,6 +14,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading.Tasks;
+using Windows.Devices.Geolocation;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -36,10 +39,25 @@ namespace IOTApp.Views
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            var localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            if (localSettings.Values.ContainsKey("LocationConsent"))
+            {
+                // User has opted in or out of Location
+                return;
+            }
+            else
+            {
+                localSettings.Values["LocationConsent"] = true;
+                //localSettings.Save();
+            }
         }
         
         private  async void WeatherPage_Loaded(object sender, RoutedEventArgs e)
         {
+            
+
+
+
             List<WeatherDataModel> abc = await WeatherRepository.GetWeatherData();
             listWeatherViewCanvas.DataContext = abc;
         }

@@ -24,13 +24,15 @@
   <Applications>
     <Application Id="App" Executable="IOTApp.WindowsPhone.exe" EntryPoint="IOTApp.WindowsPhone.App">
       <m3:VisualElements DisplayName="IOTApp.WindowsPhone" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="IOTApp.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" />
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png"></m3:DefaultTile>
         <m3:SplashScreen Image="Assets\SplashScreen.png" />
       </m3:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClientServer" />
+    <m3:Capability Name="appointments" />
+    <DeviceCapability Name="location" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="SharedGUID" Value="73692285-7960-49c0-955c-6444a4cf2c09" />
