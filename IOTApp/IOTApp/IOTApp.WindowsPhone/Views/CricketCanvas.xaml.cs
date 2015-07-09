@@ -6,7 +6,6 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using System.Xml;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -15,12 +14,9 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Markup;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Shapes;
-using System.Runtime;
-using Windows.UI.Xaml.Media.Imaging;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -105,14 +101,7 @@ namespace IOTApp.Views
             //  ListViewItem item = this.listCricketViewCanvas.ItemContainerGenerator.ContainerFromIndex(0) as ListViewItem;
             var currentSelectedListBoxItem = this.listCricketViewCanvas.ContainerFromIndex(0) as ListViewItem;
             Canvas canv = FindDescendant<Canvas>(currentSelectedListBoxItem);
-            //Canvas canv2 = (Canvas)canv.MemberwiseClone();
 
         }
-
-       
-
-        
-
     }
-
 }
