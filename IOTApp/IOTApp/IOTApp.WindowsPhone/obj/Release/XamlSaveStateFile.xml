@@ -1,0 +1,6 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\program files (x86)\reference assemblies\microsoft\framework\windowsphone\v8.1\microsoft.phone.dll" HashGuid="42532e68-561b-b4b6-25cc-e6b6eed02179" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

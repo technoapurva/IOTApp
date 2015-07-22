@@ -124,7 +124,7 @@ namespace IOTApp.IOTApp_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[14];
+            _typeNameTable = new string[15];
             _typeNameTable[0] = "IOTApp.HubPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -135,12 +135,13 @@ namespace IOTApp.IOTApp_WindowsPhone_XamlTypeInfo
             _typeNameTable[7] = "String";
             _typeNameTable[8] = "IOTApp.SectionPage";
             _typeNameTable[9] = "IOTApp.ItemPage";
-            _typeNameTable[10] = "IOTApp.Views.CalendarPage";
-            _typeNameTable[11] = "IOTApp.Views.CricketCanvas";
-            _typeNameTable[12] = "IOTApp.Views.CricketPage";
-            _typeNameTable[13] = "IOTApp.Views.WeatherPage";
+            _typeNameTable[10] = "IOTApp.Views.StringFormatConverter";
+            _typeNameTable[11] = "IOTApp.Views.CalendarPage";
+            _typeNameTable[12] = "IOTApp.Views.CricketCanvas";
+            _typeNameTable[13] = "IOTApp.Views.CricketPage";
+            _typeNameTable[14] = "IOTApp.Views.WeatherPage";
 
-            _typeTable = new global::System.Type[14];
+            _typeTable = new global::System.Type[15];
             _typeTable[0] = typeof(global::IOTApp.HubPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -151,10 +152,11 @@ namespace IOTApp.IOTApp_WindowsPhone_XamlTypeInfo
             _typeTable[7] = typeof(global::System.String);
             _typeTable[8] = typeof(global::IOTApp.SectionPage);
             _typeTable[9] = typeof(global::IOTApp.ItemPage);
-            _typeTable[10] = typeof(global::IOTApp.Views.CalendarPage);
-            _typeTable[11] = typeof(global::IOTApp.Views.CricketCanvas);
-            _typeTable[12] = typeof(global::IOTApp.Views.CricketPage);
-            _typeTable[13] = typeof(global::IOTApp.Views.WeatherPage);
+            _typeTable[10] = typeof(global::IOTApp.Views.StringFormatConverter);
+            _typeTable[11] = typeof(global::IOTApp.Views.CalendarPage);
+            _typeTable[12] = typeof(global::IOTApp.Views.CricketCanvas);
+            _typeTable[13] = typeof(global::IOTApp.Views.CricketPage);
+            _typeTable[14] = typeof(global::IOTApp.Views.WeatherPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -193,10 +195,11 @@ namespace IOTApp.IOTApp_WindowsPhone_XamlTypeInfo
         private object Activate_5_ObservableDictionary() { return new global::IOTApp.Common.ObservableDictionary(); }
         private object Activate_8_SectionPage() { return new global::IOTApp.SectionPage(); }
         private object Activate_9_ItemPage() { return new global::IOTApp.ItemPage(); }
-        private object Activate_10_CalendarPage() { return new global::IOTApp.Views.CalendarPage(); }
-        private object Activate_11_CricketCanvas() { return new global::IOTApp.Views.CricketCanvas(); }
-        private object Activate_12_CricketPage() { return new global::IOTApp.Views.CricketPage(); }
-        private object Activate_13_WeatherPage() { return new global::IOTApp.Views.WeatherPage(); }
+        private object Activate_10_StringFormatConverter() { return new global::IOTApp.Views.StringFormatConverter(); }
+        private object Activate_11_CalendarPage() { return new global::IOTApp.Views.CalendarPage(); }
+        private object Activate_12_CricketCanvas() { return new global::IOTApp.Views.CricketCanvas(); }
+        private object Activate_13_CricketPage() { return new global::IOTApp.Views.CricketPage(); }
+        private object Activate_14_WeatherPage() { return new global::IOTApp.Views.WeatherPage(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -277,30 +280,37 @@ namespace IOTApp.IOTApp_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  IOTApp.Views.CalendarPage
-                userType = new global::IOTApp.IOTApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_CalendarPage;
+            case 10:   //  IOTApp.Views.StringFormatConverter
+                userType = new global::IOTApp.IOTApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_10_StringFormatConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  IOTApp.Views.CricketCanvas
+            case 11:   //  IOTApp.Views.CalendarPage
                 userType = new global::IOTApp.IOTApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_CricketCanvas;
+                userType.Activator = Activate_11_CalendarPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  IOTApp.Views.CricketPage
+            case 12:   //  IOTApp.Views.CricketCanvas
                 userType = new global::IOTApp.IOTApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_CricketPage;
+                userType.Activator = Activate_12_CricketCanvas;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  IOTApp.Views.WeatherPage
+            case 13:   //  IOTApp.Views.CricketPage
                 userType = new global::IOTApp.IOTApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_WeatherPage;
+                userType.Activator = Activate_13_CricketPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  IOTApp.Views.WeatherPage
+                userType = new global::IOTApp.IOTApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_WeatherPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

@@ -3,9 +3,9 @@
     <LocalAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\iotapp\iotapp.windowsphone\obj\debug\intermediatexaml\iotapp.windowsphone.exe" HashGuid="0799a40e-6a11-9f85-c462-62e81a981a75" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.spatial.dll" HashGuid="0c01bc29-1f99-3dee-8959-825274adc666" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.spatial.dll" HashGuid="0c01bc29-1f99-3dee-8959-825274adc666" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

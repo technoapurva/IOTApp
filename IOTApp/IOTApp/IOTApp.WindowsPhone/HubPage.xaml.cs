@@ -109,6 +109,8 @@ namespace IOTApp
                 Frame.Navigate(typeof(CricketCanvas), groupId);
             else if (groupId == "Group-2")
                 Frame.Navigate(typeof(WeatherPage), groupId);
+            else if (groupId == "Group-4")
+                Frame.Navigate(typeof(CalendarPage), groupId);
             else
             {
                 throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));

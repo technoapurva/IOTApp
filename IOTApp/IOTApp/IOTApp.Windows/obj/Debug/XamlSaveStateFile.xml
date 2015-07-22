@@ -1,14 +1,14 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\iotapp\iotapp.windows\obj\debug\intermediatexaml\iotapp.windows.exe" HashGuid="cbf4f815-44ef-f8bc-c848-ec55f3b3bd65" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.odata.client.6.11.0\lib\portable-net45+wp8+win8+wpa\microsoft.odata.client.dll" HashGuid="39ccb645-eeae-e8ea-450f-c69b4e778990" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.odata.core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.odata.core.dll" HashGuid="292c0d32-3a8c-abfa-5797-0f2670881dfc" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.odata.edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.odata.edm.dll" HashGuid="64df4ddf-98fc-dd6e-d4ec-d3665ffb5311" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.odata.proxyextensions.1.0.35\lib\portable-net45+win+wpa81+wp80+monoandroid10+xamarinios10+monotouch10\microsoft.odata.proxyextensions.dll" HashGuid="41f52c76-f223-9234-c25c-49ee3ff30aaf" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.office365.outlookservices.1.0.35\lib\portable-net45+win+wpa81+wp80+monoandroid10+xamarinios10+monotouch10\microsoft.office365.outlookservices.portable.dll" HashGuid="096d7d80-508d-996c-d3b5-5dcc83af6064" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.spatial.dll" HashGuid="0c01bc29-1f99-3dee-8959-825274adc666" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
-    <ReferenceAssembly PathName="c:\users\t-akyeru\source\repos\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.odata.client.6.11.0\lib\portable-net45+wp8+win8+wpa\microsoft.odata.client.dll" HashGuid="39ccb645-eeae-e8ea-450f-c69b4e778990" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.odata.core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.odata.core.dll" HashGuid="292c0d32-3a8c-abfa-5797-0f2670881dfc" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.odata.edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.odata.edm.dll" HashGuid="64df4ddf-98fc-dd6e-d4ec-d3665ffb5311" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.odata.proxyextensions.1.0.35\lib\portable-net45+win+wpa81+wp80+monoandroid10+xamarinios10+monotouch10\microsoft.odata.proxyextensions.dll" HashGuid="41f52c76-f223-9234-c25c-49ee3ff30aaf" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.office365.outlookservices.1.0.35\lib\portable-net45+win+wpa81+wp80+monoandroid10+xamarinios10+monotouch10\microsoft.office365.outlookservices.portable.dll" HashGuid="096d7d80-508d-996c-d3b5-5dcc83af6064" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\microsoft.spatial.dll" HashGuid="0c01bc29-1f99-3dee-8959-825274adc666" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\newtonsoft.json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="0b4cdfc1-2257-2e75-23cf-4052e97b309e" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\github\iotapp\iotapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

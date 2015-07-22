@@ -1,0 +1,1 @@
+C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\IOTApp.Windows.csproj;neutral

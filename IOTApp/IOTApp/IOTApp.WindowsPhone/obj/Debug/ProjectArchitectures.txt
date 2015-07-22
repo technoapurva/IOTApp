@@ -1,1 +1,1 @@
-C:\Users\t-akyeru\Source\Repos\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\IOTApp.WindowsPhone.csproj;neutral
+C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.WindowsPhone\IOTApp.WindowsPhone.csproj;neutral

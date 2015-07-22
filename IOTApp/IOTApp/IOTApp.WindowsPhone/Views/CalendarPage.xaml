@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="IOTApp.Views.CalendarPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IOTApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <local:StringFormatConverter x:Name="StringFormat"/>
+    </Page.Resources>
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF008AFF">
+            <TextBlock Text="APPOINTMENTS" FontSize="32" Margin="10,0,0,0" VerticalAlignment="Center" Style="{ThemeResource HeaderTextBlockStyle}"/>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,5,0,0">
+            <ListView x:Name="listCalendarViewCanvas"
+                        ItemsSource="{Binding}"
+                        IsItemClickEnabled="True"
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Canvas Background="#FFCF5122" Width="400" Margin="0,5,0,0" Height="100">
+                            <StackPanel Margin="15,0,0,0">
+                                <TextBlock Text="{Binding Subject}" Style="{ThemeResource ListViewItemTextBlockStyle}" />
+                                <TextBlock Text="{Binding Location}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" TextWrapping="Wrap" />
+                                <TextBlock  Text="{Binding StartTime, Converter={StaticResource ResourceKey=StringFormat}, ConverterParameter='{}{0: h:mm tt}'}" Style="{ThemeResource ListViewItemContentTextBlockStyle}"></TextBlock>
+                                <TextBlock  Text="{Binding Duration, Converter={StaticResource ResourceKey=StringFormat}, ConverterParameter='{}{0:h\\:mm\\:ss}'}" Style="{ThemeResource ListViewItemContentTextBlockStyle}"></TextBlock>
+                            </StackPanel>
+                        </Canvas>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+</Page>

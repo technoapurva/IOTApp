@@ -1,0 +1,45 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="IOTApp.Views.CricketCanvas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IOTApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                     >
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF008AFF">
+            <TextBlock Text="New Scores" FontSize="32" Margin="10,0,0,0" VerticalAlignment="Center" Style="{ThemeResource HeaderTextBlockStyle}"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button x:ConnectionId='3' Content="Button"                     ></Button>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,5,0,0">
+            <ListView x:ConnectionId='2' x:Name="listCricketViewCanvas"
+                        ItemsSource="{Binding}"
+                        IsItemClickEnabled="True"
+                                                   
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Canvas Background="#FFCF5122" Width="400" Margin="0,5,0,0" Height="100">
+                            <StackPanel Margin="15,0,0,0">
+                                <TextBlock Text="{Binding GameTitle}" Style="{ThemeResource ListViewItemTextBlockStyle}" />
+                                <TextBlock Text="{Binding de}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" TextWrapping="Wrap" />
+                                <TextBlock  Text="{Binding si}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"></TextBlock>
+                            </StackPanel>
+                        </Canvas>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+
+</Page>
+

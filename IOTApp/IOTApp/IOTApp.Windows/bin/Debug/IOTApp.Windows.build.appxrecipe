@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MYCOMPUTER</Machine>
+    <WindowsUser>t-bhkota</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d5462508-4adc-4bb7-80ef-1f2f2986a270</PackageIdentityName>
+    <IntermediateOutputPath>C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.exe">
+      <PackagePath>IOTApp.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\Microsoft.OData.Client.dll">
+      <PackagePath>Microsoft.OData.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Core.dll">
+      <PackagePath>Microsoft.OData.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Edm.dll">
+      <PackagePath>Microsoft.OData.Edm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.ProxyExtensions.1.0.35\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.OData.ProxyExtensions.dll">
+      <PackagePath>Microsoft.OData.ProxyExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Office365.OutlookServices.1.0.35\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.Office365.OutlookServices.Portable.dll">
+      <PackagePath>Microsoft.Office365.OutlookServices.Portable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll">
+      <PackagePath>Microsoft.Spatial.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\de\Microsoft.OData.Client.resources.dll">
+      <PackagePath>de\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\es\Microsoft.OData.Client.resources.dll">
+      <PackagePath>es\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\fr\Microsoft.OData.Client.resources.dll">
+      <PackagePath>fr\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\it\Microsoft.OData.Client.resources.dll">
+      <PackagePath>it\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\ja\Microsoft.OData.Client.resources.dll">
+      <PackagePath>ja\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\ko\Microsoft.OData.Client.resources.dll">
+      <PackagePath>ko\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\ru\Microsoft.OData.Client.resources.dll">
+      <PackagePath>ru\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\zh-Hans\Microsoft.OData.Client.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Client.6.11.0\lib\portable-net45+wp8+win8+wpa\zh-Hant\Microsoft.OData.Client.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.OData.Client.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.OData.Core.resources.dll">
+      <PackagePath>de\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.OData.Core.resources.dll">
+      <PackagePath>es\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.OData.Core.resources.dll">
+      <PackagePath>fr\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.OData.Core.resources.dll">
+      <PackagePath>it\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.OData.Core.resources.dll">
+      <PackagePath>ja\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.OData.Core.resources.dll">
+      <PackagePath>ko\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.OData.Core.resources.dll">
+      <PackagePath>ru\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.OData.Core.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Core.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.OData.Core.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.OData.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>de\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>es\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>fr\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>it\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>ja\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>ko\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>ru\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.OData.Edm.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.OData.Edm.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.Spatial.resources.dll">
+      <PackagePath>de\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.Spatial.resources.dll">
+      <PackagePath>es\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.Spatial.resources.dll">
+      <PackagePath>fr\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.Spatial.resources.dll">
+      <PackagePath>it\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.Spatial.resources.dll">
+      <PackagePath>ja\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.Spatial.resources.dll">
+      <PackagePath>ko\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.Spatial.resources.dll">
+      <PackagePath>ru\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.Spatial.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\packages\Microsoft.Spatial.6.11.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.Spatial.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Spatial.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Shared\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Shared\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Shared\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\IOTApp.Windows.xr.xml">
+      <PackagePath>IOTApp.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\IOTApp\IOTApp\IOTApp\IOTApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

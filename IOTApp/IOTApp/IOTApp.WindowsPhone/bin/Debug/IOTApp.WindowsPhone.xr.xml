@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="Subtitle" />
@@ -10,14 +13,18 @@
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Group" />
     <RootPropertyPathName Name="Item" />
+    <RootPropertyPathName Name="Duration" />
+    <RootPropertyPathName Name="StartTime" />
+    <RootPropertyPathName Name="Location" />
+    <RootPropertyPathName Name="Subject" />
+    <RootPropertyPathName Name="si" />
+    <RootPropertyPathName Name="de" />
+    <RootPropertyPathName Name="GameTitle" />
     <RootPropertyPathName Name="weather" />
     <RootPropertyPathName Name="description" />
     <RootPropertyPathName Name="main" />
     <RootPropertyPathName Name="temp" />
     <RootPropertyPathName Name="name" />
-    <RootPropertyPathName Name="si" />
-    <RootPropertyPathName Name="de" />
-    <RootPropertyPathName Name="GameTitle" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -31,6 +38,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ConverterParameter" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
@@ -121,7 +130,9 @@
       <RootMethod Name="GetExitElementContainer" />
       <RootMethod Name="SetExitElementContainer" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension">
+      <RootProperty Name="ResourceKey" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
@@ -146,6 +157,7 @@
     </RootType>
     <RootType FullName="IOTApp.SectionPage" />
     <RootType FullName="IOTApp.ItemPage" />
+    <RootType FullName="IOTApp.Views.StringFormatConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Background" />
       <RootProperty Name="Width" />
